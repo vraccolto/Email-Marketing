@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.txt-color-dark-blue {
+   color: #054976;
+   font-weight: bold;
+   font-family: Open Sans, Bold;
+}
 
 .color-blue, a {
     font-weight: bold;
@@ -57,12 +62,14 @@ header {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+
 .numeropedido{
     display:flex;
     flex-direction:column;
     justify-content:end;
     align-items:end;
 }
+
 .etiq1 {
     margin-bottom: 0.3rem;
     /* text-align: end; */
@@ -137,11 +144,6 @@ header {
     margin-bottom: 2rem;
 }
 
-#txt2 {
-    max-width: 12rem;
-    flex-wrap: wrap;
-}
-
 .part2 {
     margin: 1rem;
     margin-bottom: 3rem;
@@ -151,6 +153,18 @@ header {
     flex-flow: row;
     align-content: end;
     font-size: 0.87rem;
+}
+
+.img-peq {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    margin-right: 0.3rem;
+}
+
+#txt2 {
+    max-width: 12rem;
+    flex-wrap: wrap;
 }
 
 .part3 {
@@ -320,7 +334,7 @@ button {
     padding: 1.5rem;
     width: 288px;
     height: 177px;
-    background: #E2E5EA;
+    background: white;
     border-radius: 12px;
     opacity: 1;
     margin-right: 1.5rem;
@@ -330,7 +344,7 @@ button {
     padding: 1.5rem;
     width: 288px;
     height: 177px;
-    background: #E2E5EA;
+    background: white;
     border-radius: 12px;
     opacity: 1;
 }
@@ -403,4 +417,31 @@ footer {
     width: 34.685rem;
     height: 3.56rem;
     line-height: 1.2rem;
+}
+
+
+/* ---------- P Á G I N A 2 ---------- */
+
+/* ---------- I N F O ---------- */
+
+
+.pg2-i-pt2 p {
+    margin: 1rem;
+}
+
+
+/* ---------- R A S T R E I O - P E D I D O ---------- */
+
+
+.rastreio-pedido {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    width: 600px;
+    height: 90px;
+    background: white;
+    border-radius: 12px;
+    opacity: 1;
+    margin-bottom: 1rem;
 }

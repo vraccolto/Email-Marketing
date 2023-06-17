@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <g id="inventory_2_black_24dp" transform="translate(0.02 -0.364)">
+    <g id="Grupo_504" data-name="Grupo 504">
+      <rect id="Retângulo_209" data-name="Retângulo 209" width="14" height="14" transform="translate(-0.02 0.364)" fill="none"/>
+    </g>
+    <g id="Grupo_505" data-name="Grupo 505" transform="translate(1.174 1.174)">
+      <path id="Caminho_596" data-name="Caminho 596" d="M12.563,2H3.174A1.217,1.217,0,0,0,2,3.174V4.94a1.185,1.185,0,0,0,.587.992v6.631A1.261,1.261,0,0,0,3.76,13.736h8.215a1.261,1.261,0,0,0,1.174-1.174V5.932a1.185,1.185,0,0,0,.587-.992V3.174A1.217,1.217,0,0,0,12.563,2ZM9.042,9.042H6.694a.589.589,0,0,1-.587-.587h0a.589.589,0,0,1,.587-.587H9.042a.589.589,0,0,1,.587.587h0A.589.589,0,0,1,9.042,9.042Zm3.521-4.108H3.174V3.174h9.389Z" transform="translate(-2 -2)" fill="#142341"/>
+    </g>
+  </g>
+</svg>

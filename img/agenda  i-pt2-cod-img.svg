@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <g id="view_agenda_black_24dp" transform="translate(0 -0.316)">
+    <g id="Grupo_506" data-name="Grupo 506" transform="translate(0 0.316)">
+      <rect id="Retângulo_212" data-name="Retângulo 212" width="14" height="14" fill="none"/>
+    </g>
+    <g id="Grupo_508" data-name="Grupo 508" transform="translate(1.826 1.802)">
+      <g id="Grupo_507" data-name="Grupo 507">
+        <path id="Caminho_597" data-name="Caminho 597" d="M12.738,13H4.217A1.221,1.221,0,0,0,3,14.217v2.434a1.221,1.221,0,0,0,1.217,1.217h8.521a1.221,1.221,0,0,0,1.217-1.217V14.217A1.221,1.221,0,0,0,12.738,13Z" transform="translate(-3 -6.914)" fill="#142341"/>
+        <path id="Caminho_598" data-name="Caminho 598" d="M12.738,3H4.217A1.221,1.221,0,0,0,3,4.217V6.652A1.221,1.221,0,0,0,4.217,7.869h8.521a1.221,1.221,0,0,0,1.217-1.217V4.217A1.221,1.221,0,0,0,12.738,3Z" transform="translate(-3 -3)" fill="#142341"/>
+      </g>
+    </g>
+  </g>
+</svg>
