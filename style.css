@@ -444,7 +444,7 @@ footer {
 }
 /* ---------- P Á G I N A 3 ---------- */
 
-/* ---------- I N F O---------- */
+/* ---------- I N F O ---------- */
 
 .pg3-info {
     padding: 1.5rem;
@@ -461,4 +461,40 @@ footer {
 
 .pg3-i-pt3 {
     margin-left: 1rem;
+}
+
+
+/* ---------- P Á G I N A 5 ---------- */
+
+/* ---------- I N F O ---------- */
+
+
+.pg5-info {
+    padding: 1.5rem;
+    position: none;
+    width: 600px;
+    height: 309px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    opacity: 1;
+    font-family: Open Sans, Regular;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* ---------- I N F O ---------- */
+
+
+.avaliacao {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    width: 600px;
+    height: 116px;
+    background: white;
+    border-radius: 12px;
+    opacity: 1;
+    margin-bottom: 1rem;
 }
