@@ -17,6 +17,12 @@
     color: #3FAFF0;;
 }
 
+.img-peq {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    margin-right: 0.3rem;
+}
 
 body {
     background-color: #71778188;
@@ -63,16 +69,15 @@ header {
     margin-top: 1rem;
 }
 
-.numeropedido{
+.i-pt1 {
     display:flex;
     flex-direction:column;
     justify-content:end;
     align-items:end;
 }
 
-.etiq1 {
+.i-pt1-etiq1 {
     margin-bottom: 0.3rem;
-    /* text-align: end; */
     font-family: Open Sans, Regular;
     font-size: 1rem;
     letter-spacing: 0rem;
@@ -80,8 +85,7 @@ header {
     opacity: 1;
 }
 
-.etiq2 {
-    /* margin-left: 425px; */
+.i-pt1-etiq2 {
     display: flex;
     align-items: center;
     width: 156px;
@@ -103,14 +107,14 @@ header {
     border-left: 11px solid #2A92CE;
 }
 
-.part1 {
+.i-pt2 {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
 }
 
-.img1 {
+.i-pt2-img {
     width: 53px;
     height: 53px;
     opacity: 1;
@@ -118,11 +122,11 @@ header {
     margin-left: 1rem;
 }
 
-.i-pt1-c2 {
+.i-pt2-c2 {
     flex-direction: column;
 }
 
-.i-pt1-c2 p {
+.i-pt2-c2 p {
     margin-bottom: 0.5rem;
     font-family: Open Sans, Regular;
     font-size: 1.12rem;
@@ -130,45 +134,33 @@ header {
     opacity: 1;
 }
 
-.i-pt1-c2 h2 {
+.i-pt2-c2 h2 {
     font-family: EB Garamond, Bold;
     font-size: 1.56rem;
     color: #3FAFF0;
     opacity: 1;
 }
 
-#txt1 {
+#i-pt2-txt {
+    max-width: 12rem;
+    flex-wrap: wrap;
+}
+
+.i-pt3 {
     font-size: 0.87rem;
     margin: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-}
-
-.part2 {
-    margin: 1rem;
-    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
     position: relative;
     flex-flow: row;
     align-content: end;
-    font-size: 0.87rem;
 }
 
-.img-peq {
-    width: 14px;
-    height: 14px;
-    opacity: 1;
-    margin-right: 0.3rem;
-}
-
-#txt2 {
-    max-width: 12rem;
-    flex-wrap: wrap;
-}
-
-.part3 {
+.i-pt4 {
     margin: 1rem;
+    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -240,7 +232,7 @@ td:first-child {
 
 .dc-pt2-t {
     display: flex;
-    flex-flow: row; 
+    flex-flow: row;
     justify-content: space-between;   
 }
 
@@ -425,7 +417,7 @@ footer {
 /* ---------- I N F O ---------- */
 
 
-.pg2-i-pt2 p {
+.pg2-i-pt3 p {
     margin: 1rem;
 }
 
@@ -444,4 +436,29 @@ footer {
     border-radius: 12px;
     opacity: 1;
     margin-bottom: 1rem;
+}
+
+.rp-pt1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/* ---------- P Á G I N A 3 ---------- */
+
+/* ---------- I N F O---------- */
+
+.pg3-info {
+    padding: 1.5rem;
+    position: none;
+    width: 600px;
+    height: 271px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    opacity: 1;
+    font-family: Open Sans, Regular;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.pg3-i-pt3 {
+    margin-left: 1rem;
 }
