@@ -7,13 +7,14 @@
 .txt-color-dark-blue {
    color: #054976;
    font-weight: bold;
-   font-family: Open Sans, Bold;
+   font-family: 'Open Sans', Bold;
+   font-size: 14px;
 }
 
 .color-blue, a {
+    font-family: 'Open Sans', Bold;
+    font-size: 14px;
     font-weight: bold;
-    font-family: Open Sans, Bold;
-    font-size: 0.87rem;
     color: #3FAFF0;;
 }
 
@@ -25,7 +26,7 @@
 }
 
 body {
-    background-color: #71778188;
+    background-color: #eeeeee;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -47,6 +48,7 @@ header {
 }
 
 .h-logo {
+    height: 60px;
     margin: 0.5rem;
     display: flex;
     justify-content: center;
@@ -57,59 +59,52 @@ header {
 
 
 .info {
-    padding: 1.5rem;
-    position: none;
     width: 600px;
     height: 409px;
+    padding: 0.5rem;
     background: #FFFFFF;
     border-radius: 12px;
     opacity: 1;
-    font-family: Open Sans, Regular;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
 
 .i-pt1 {
+    padding: 0.5rem;
     display:flex;
     flex-direction:column;
-    justify-content:end;
     align-items:end;
 }
 
 .i-pt1-etiq1 {
-    margin-bottom: 0.3rem;
-    font-family: Open Sans, Regular;
-    font-size: 1rem;
-    letter-spacing: 0rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     color: #142341;
     opacity: 1;
 }
 
 .i-pt1-etiq2 {
-    display: flex;
-    align-items: center;
+    padding: 0.4rem;
     width: 156px;
     height: 38px;
     background: #3FAFF0;
     border-radius: 8px 8px 0px 8px;
     opacity: 1;
-    color: white;
-    /* joni */
-    padding-left:4px;
-    margin-right:-35px;
+    font-family: 'Open Sans', Bold;
+    color: #FFFFFF;
+    margin-right:-27px;
 }
-/* Joni */
+
 .tria {
-    margin-right:-35px;
-    width: 0; 
-    height: 0; 
+    margin-right:-27px; 
     border-bottom: 10px solid transparent;
     border-left: 11px solid #2A92CE;
 }
 
 .i-pt2 {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    margin-left: 1rem;
     display: flex;
     align-items: center;
 }
@@ -119,7 +114,6 @@ header {
     height: 53px;
     opacity: 1;
     margin-right: 1rem;
-    margin-left: 1rem;
 }
 
 .i-pt2-c2 {
@@ -128,45 +122,52 @@ header {
 
 .i-pt2-c2 p {
     margin-bottom: 0.5rem;
-    font-family: Open Sans, Regular;
-    font-size: 1.12rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     color: #054976;
     opacity: 1;
 }
 
 .i-pt2-c2 h2 {
-    font-family: EB Garamond, Bold;
+    font-family: 'EB Garamond', Bold;
     font-size: 1.56rem;
     color: #3FAFF0;
     opacity: 1;
 }
 
-#i-pt2-txt {
-    max-width: 12rem;
-    flex-wrap: wrap;
-}
-
 .i-pt3 {
-    font-size: 0.87rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
     margin: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    flex-flow: row;
-    align-content: end;
+    margin-bottom: 1.5rem;
 }
 
 .i-pt4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
     margin: 1rem;
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
-    position: relative;
-    flex-flow: row;
-    align-content: end;
-    font-size: 0.87rem;
+}
+
+#i-pt2-txt {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #142341;
+    max-width: 12rem;
+    flex-wrap: wrap;
+}
+
+.i-pt5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -174,11 +175,9 @@ header {
 
 
 .detalhe-compra {
-    display:flex;
-    flex-direction:column;
-    padding: 1.5rem;
     width: 600px;
     height: 293px;
+    padding: 0.5rem;
     background: #FFFFFF;
     border-radius: 12px;
     opacity: 1;
@@ -186,17 +185,12 @@ header {
 }
 
 .dc-pt1 {
-    display:flex;
-    margin-bottom: 1rem;
-    font-size: 0.87rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    padding: 0.5rem;
 }
 
 .dc-pt1-table-img {
-    border: solid gray;
-    border-width: 1rem;
+    border: solid rgb(204, 204, 204);
+    border-width: 0.9rem;
     border-radius: 8px;
     opacity: 1;
     margin-right: 1rem;
@@ -206,8 +200,7 @@ td {
     padding: 0.5rem;
     width: 600px;
     height: 50px;
-    text-align: center;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid rgb(201, 201, 201);
 }
 
 td:first-child {
@@ -216,28 +209,45 @@ td:first-child {
   }
 
 .dc-pt2 {
-    position: relative;
-    font-size: 0.87rem;
-    margin-left: 20rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .dc-pt2-ft {
     display: flex;
     flex-flow: row; 
-    margin-bottom: 1.5rem;
-    justify-content: space-between; 
+    margin-bottom: 1rem;
+    justify-content: end;
+    column-gap: 30px;
 }
 
 .dc-pt2-t {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;   
+    justify-content: end;
+    column-gap: 30px;
 }
 
-.txt-bold {
+.dc-txt-bold1 {
+    font-family: 'Open Sans, Bold';
+    font-size: 14px;
     font-weight: bold;
+    color: #142341;
+}
+
+.dc-txt-bold2 {
+    font-family: 'Open Sans, Bold';
+    font-size: 12px;
+    font-weight: bold;
+    color: #142341;
+}
+
+.dc-txt-normal {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
+    opacity: 1;
 }
 
 
@@ -245,9 +255,9 @@ td:first-child {
 
 
 .pagamento {
-    padding: 1.5rem;
     width: 600px;
     height: 211px;
+    padding: 0.5rem;
     background: #FFFFFF;
     border-radius: 12px;
     opacity: 1;
@@ -255,21 +265,20 @@ td:first-child {
 }
 
 .p-pt1 {
+    padding: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
     margin-bottom: 1rem;
+    margin-right: 2rem;
     display: flex;
     justify-content: space-between;
-    position: relative;
     flex-flow: row;
-    align-content: end;
-    font-size: 0.87rem;
 }
 
-button {
+.botao {
     border: none;
-    display: inline;
-    align-content: center;
-    justify-content: center;
-    margin-left: 7rem;
+    margin-left: 8rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
     color: white;
@@ -279,9 +288,14 @@ button {
     background: #3FAFF0;
     border-radius: 28px;
     opacity: 1;
+    font-family: 'Campuni', Medium;
+    font-size: 15px;
 }
 
-.pagamento p {
+.p-pt3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
     text-align: center;
 }
 
@@ -306,11 +320,9 @@ button {
 
 .c-pt2 {
     line-height: 1.5rem;
-}
-
-.txt3 {
-    color: #054976;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
 }
 
 
@@ -323,20 +335,18 @@ button {
 }
 
 .br-bloco1 {
-    padding: 1.5rem;
     width: 288px;
     height: 177px;
-    background: white;
+    background: #FFFFFF;
     border-radius: 12px;
     opacity: 1;
     margin-right: 1.5rem;
 }
 
 .br-bloco2 {
-    padding: 1.5rem;
     width: 288px;
     height: 177px;
-    background: white;
+    background: #FFFFFF;
     border-radius: 12px;
     opacity: 1;
 }
@@ -364,23 +374,17 @@ footer {
 .f-pt2 {
     margin: 1rem;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
+    line-height: 1.5rem;
     display: flex;
-    font-size: 0.8rem;
-    font-family: Open Sans, Regular;
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-}
-
-.f-pt2-c1 {
-    margin-left: 3rem;
-    line-height: 1.2rem;
-}
-
-.f-pt2-c2 {
-    margin-right: 3rem;
-    line-height: 1.5rem;
 }
 
 .f-pt2-c2-img {
@@ -389,28 +393,21 @@ footer {
 
 .f-pt3 {
     margin: 1rem;
-    display: flex;
-    font-size: 0.8rem;
-    font-family: Open Sans, Regular;
-    flex-direction: column;
-    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #142341;
     text-align: center;
 }
 
 .f-pt3-l1 {
     margin-bottom: 1rem;
-    width: 28rem;
-    height: 3.56rem;
     line-height: 1.2rem;
 }
 
 .f-pt3-l2 {
     margin-bottom: 1rem;
-    width: 34.685rem;
-    height: 3.56rem;
     line-height: 1.2rem;
 }
-
 
 /* ---------- P Á G I N A 2 ---------- */
 
