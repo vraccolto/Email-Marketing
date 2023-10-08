@@ -7,12 +7,10 @@
 .txt-color-dark-blue {
    color: #054976;
    font-weight: bold;
-   font-family: 'Open Sans', Bold;
    font-size: 14px;
 }
 
 .color-blue, a {
-    font-family: 'Open Sans', Bold;
     font-size: 14px;
     font-weight: bold;
     color: #3FAFF0;;
@@ -90,7 +88,6 @@ header {
     background: #3FAFF0;
     border-radius: 8px 8px 0px 8px;
     opacity: 1;
-    font-family: 'Open Sans', Bold;
     color: #FFFFFF;
     margin-right:-27px;
 }
@@ -416,6 +413,9 @@ footer {
 
 .pg2-i-pt3 p {
     margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
 }
 
 
@@ -423,8 +423,8 @@ footer {
 
 
 .rastreio-pedido {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     width: 600px;
@@ -433,6 +433,9 @@ footer {
     border-radius: 12px;
     opacity: 1;
     margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
 }
 
 .rp-pt1 {
@@ -443,8 +446,9 @@ footer {
 
 /* ---------- I N F O ---------- */
 
+
 .pg3-info {
-    padding: 1.5rem;
+    padding: 0.5rem;
     position: none;
     width: 600px;
     height: 271px;
@@ -458,6 +462,9 @@ footer {
 
 .pg3-i-pt3 {
     margin-left: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
 }
 
 
@@ -467,7 +474,7 @@ footer {
 
 
 .pg5-info {
-    padding: 1.5rem;
+    padding: 0.5rem;
     position: none;
     width: 600px;
     height: 309px;
@@ -494,4 +501,7 @@ footer {
     border-radius: 12px;
     opacity: 1;
     margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #142341;
 }
